@@ -1,0 +1,865 @@
+2026-02-15 19:55:19,090 - __main__ - INFO - ============================================================
+2026-02-15 19:55:19,091 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 19:55:19,091 - __main__ - INFO - ============================================================
+2026-02-15 19:55:19,091 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 19:55:19,091 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 19:55:19,091 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 19:55:19,091 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 19:55:19,091 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 19:55:19,091 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 19:55:19,091 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 19:55:19,091 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 19:55:19,092 - __main__ - INFO - ============================================================
+2026-02-15 19:55:19,092 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 19:55:19,859 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:55:27,917 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-15 19:55:27,917 - aiogram.event - INFO - Update id=142600767 is handled. Duration 483 ms by bot id=7667807293
+2026-02-15 19:56:16,867 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-15 19:56:16,938 - __main__ - ERROR - Ошибка проверки подписки пользователя 2066791910: Telegram server says - Bad Request: chat not found
+2026-02-15 19:56:17,029 - __main__ - INFO - Пользователь 2066791910 не подписан на канал
+2026-02-15 19:56:17,029 - aiogram.event - INFO - Update id=142600768 is handled. Duration 157 ms by bot id=7667807293
+2026-02-15 19:56:32,093 - __main__ - INFO - Пользователь 1428724011 (@sablinaekaterina) запустил бота
+2026-02-15 19:56:32,093 - aiogram.event - INFO - Update id=142600769 is handled. Duration 234 ms by bot id=7667807293
+2026-02-15 19:56:36,368 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:56:36,466 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:56:36,582 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:56:36,583 - aiogram.event - INFO - Update id=142600770 is handled. Duration 219 ms by bot id=7667807293
+2026-02-15 19:56:41,891 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:56:41,965 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:56:42,079 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:56:42,079 - aiogram.event - INFO - Update id=142600771 is handled. Duration 187 ms by bot id=7667807293
+2026-02-15 19:57:38,812 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 19:57:38,812 - __main__ - INFO - ============================================================
+2026-02-15 19:57:38,812 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 19:57:38,812 - __main__ - INFO - ============================================================
+2026-02-15 19:57:38,812 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 19:57:38,813 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 19:57:39,067 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:57:39,068 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 19:57:42,019 - __main__ - INFO - ============================================================
+2026-02-15 19:57:42,020 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 19:57:42,020 - __main__ - INFO - ============================================================
+2026-02-15 19:57:42,020 - __main__ - INFO - 📢 Канал: -1003696444549
+2026-02-15 19:57:42,020 - __main__ - INFO - 🆔 ID канала: -1003730487790
+2026-02-15 19:57:42,020 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 19:57:42,020 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 19:57:42,020 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 19:57:42,020 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 19:57:42,020 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 19:57:42,020 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 19:57:42,020 - __main__ - INFO - ============================================================
+2026-02-15 19:57:42,020 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 19:57:42,263 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:58:03,196 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:58:03,652 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:58:03,786 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:58:03,787 - aiogram.event - INFO - Update id=142600772 is handled. Duration 593 ms by bot id=7667807293
+2026-02-15 19:58:42,276 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 19:58:42,276 - __main__ - INFO - ============================================================
+2026-02-15 19:58:42,276 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 19:58:42,277 - __main__ - INFO - ============================================================
+2026-02-15 19:58:42,277 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 19:58:42,277 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 19:58:42,538 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:58:42,539 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 19:58:45,228 - __main__ - INFO - ============================================================
+2026-02-15 19:58:45,228 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 19:58:45,228 - __main__ - INFO - ============================================================
+2026-02-15 19:58:45,228 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 19:58:45,229 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 19:58:45,229 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 19:58:45,229 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 19:58:45,229 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 19:58:45,229 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 19:58:45,229 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 19:58:45,229 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 19:58:45,229 - __main__ - INFO - ============================================================
+2026-02-15 19:58:45,229 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 19:58:45,473 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:58:46,493 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:58:46,941 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:58:47,030 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:58:47,030 - aiogram.event - INFO - Update id=142600773 is handled. Duration 532 ms by bot id=7667807293
+2026-02-15 19:58:56,627 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:58:56,788 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:58:56,911 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:58:56,911 - aiogram.event - INFO - Update id=142600774 is handled. Duration 281 ms by bot id=7667807293
+2026-02-15 19:59:31,689 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 19:59:31,689 - __main__ - INFO - ============================================================
+2026-02-15 19:59:31,689 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 19:59:31,689 - __main__ - INFO - ============================================================
+2026-02-15 19:59:31,690 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 19:59:31,690 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 19:59:31,944 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:59:31,945 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 19:59:34,778 - __main__ - INFO - ============================================================
+2026-02-15 19:59:34,779 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 19:59:34,779 - __main__ - INFO - ============================================================
+2026-02-15 19:59:34,779 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 19:59:34,779 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 19:59:34,779 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 19:59:34,779 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 19:59:34,779 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 19:59:34,779 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 19:59:34,779 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 19:59:34,779 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 19:59:34,779 - __main__ - INFO - ============================================================
+2026-02-15 19:59:34,779 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 19:59:35,023 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 19:59:42,571 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 19:59:43,509 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 19:59:43,608 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 19:59:43,608 - aiogram.event - INFO - Update id=142600775 is handled. Duration 1031 ms by bot id=7667807293
+2026-02-15 20:03:40,753 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:03:40,753 - __main__ - INFO - ============================================================
+2026-02-15 20:03:40,753 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:03:40,753 - __main__ - INFO - ============================================================
+2026-02-15 20:03:40,754 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:03:40,754 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:03:41,015 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:03:41,016 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:03:43,612 - __main__ - INFO - ============================================================
+2026-02-15 20:03:43,612 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:03:43,612 - __main__ - INFO - ============================================================
+2026-02-15 20:03:43,612 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:03:43,612 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:03:43,612 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:03:43,612 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:03:43,612 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:03:43,612 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:03:43,613 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:03:43,613 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:03:43,613 - __main__ - INFO - ============================================================
+2026-02-15 20:03:43,613 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:03:43,860 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:03:49,851 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:03:50,325 - __main__ - ERROR - Ошибка проверки подписки пользователя 1428724011: Telegram server says - Bad Request: chat not found
+2026-02-15 20:03:50,422 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 20:03:50,422 - aiogram.event - INFO - Update id=142600776 is handled. Duration 578 ms by bot id=7667807293
+2026-02-15 20:04:51,055 - aiogram.event - INFO - Update id=142600777 is not handled. Duration 14 ms by bot id=7667807293
+2026-02-15 20:05:28,989 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:05:29,292 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-15 20:05:29,292 - __main__ - WARNING - Объявление ID_1093 отклонено: Объявление не начинается с разрешенной фразы
+2026-02-15 20:05:29,292 - aiogram.event - INFO - Update id=142600778 is handled. Duration 313 ms by bot id=7667807293
+2026-02-15 20:05:46,606 - __main__ - INFO - Пользователь 1428724011 запросил правила
+2026-02-15 20:05:46,606 - aiogram.event - INFO - Update id=142600779 is handled. Duration 202 ms by bot id=7667807293
+2026-02-15 20:06:11,861 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:06:12,171 - __main__ - INFO - Объявление ID_1097 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #вакансия
+2026-02-15 20:06:12,171 - aiogram.event - INFO - Update id=142600780 is handled. Duration 328 ms by bot id=7667807293
+2026-02-15 20:06:14,934 - __main__ - INFO - Получено объявление от пользователя 777000 (@None)
+2026-02-15 20:06:15,150 - __main__ - INFO - Пользователь 777000 не подписан на канал
+2026-02-15 20:06:15,150 - aiogram.event - INFO - Update id=142600781 is handled. Duration 218 ms by bot id=7667807293
+2026-02-15 20:06:24,011 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:06:24,350 - __main__ - INFO - Объявление ID_1099 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #резюме
+2026-02-15 20:06:24,350 - aiogram.event - INFO - Update id=142600782 is handled. Duration 327 ms by bot id=7667807293
+2026-02-15 20:06:27,434 - __main__ - INFO - Получено объявление от пользователя 777000 (@None)
+2026-02-15 20:06:27,588 - __main__ - INFO - Пользователь 777000 не подписан на канал
+2026-02-15 20:06:27,588 - aiogram.event - INFO - Update id=142600783 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:06:41,714 - __main__ - INFO - Пользователь 1428724011 отправил медиафайл
+2026-02-15 20:06:41,714 - aiogram.event - INFO - Update id=142600784 is handled. Duration 93 ms by bot id=7667807293
+2026-02-15 20:07:25,202 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:07:25,202 - __main__ - INFO - ============================================================
+2026-02-15 20:07:25,203 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:07:25,203 - __main__ - INFO - ============================================================
+2026-02-15 20:07:25,203 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:07:25,203 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:07:25,455 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:07:25,456 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:07:28,155 - __main__ - INFO - ============================================================
+2026-02-15 20:07:28,156 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:07:28,156 - __main__ - INFO - ============================================================
+2026-02-15 20:07:28,156 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:07:28,156 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:07:28,156 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:07:28,156 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:07:28,156 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:07:28,156 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:07:28,156 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:07:28,156 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:07:28,156 - __main__ - INFO - ============================================================
+2026-02-15 20:07:28,156 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:07:28,422 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:07:50,643 - __main__ - INFO - Пользователь 1428724011 отписался от канала. Отправлен вопрос.
+2026-02-15 20:07:50,643 - aiogram.event - INFO - Update id=142600785 is handled. Duration 516 ms by bot id=7667807293
+2026-02-15 20:07:55,737 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:07:55,900 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 20:07:55,901 - aiogram.event - INFO - Update id=142600786 is handled. Duration 172 ms by bot id=7667807293
+2026-02-15 20:08:34,520 - aiogram.event - INFO - Update id=142600787 is handled. Duration 0 ms by bot id=7667807293
+2026-02-15 20:09:02,125 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:09:02,196 - __main__ - WARNING - Найдено запрещенное слово: хуй
+2026-02-15 20:09:02,286 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-15 20:09:02,286 - __main__ - WARNING - Объявление ID_1104 отклонено: Использование запрещенных слов (нецензурная лексика)
+2026-02-15 20:09:02,286 - aiogram.event - INFO - Update id=142600788 is handled. Duration 172 ms by bot id=7667807293
+2026-02-15 20:09:04,576 - __main__ - INFO - Пользователь 1428724011 запросил правила
+2026-02-15 20:09:04,576 - aiogram.event - INFO - Update id=142600789 is handled. Duration 94 ms by bot id=7667807293
+2026-02-15 20:09:18,201 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:09:18,273 - __main__ - WARNING - Найдено запрещенное слово: хуй
+2026-02-15 20:09:18,377 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-15 20:09:18,377 - __main__ - WARNING - Объявление ID_1108 отклонено: Использование запрещенных слов (нецензурная лексика)
+2026-02-15 20:09:18,378 - aiogram.event - INFO - Update id=142600790 is handled. Duration 171 ms by bot id=7667807293
+2026-02-15 20:09:22,932 - __main__ - INFO - Пользователь 1428724011 запросил правила
+2026-02-15 20:09:22,932 - aiogram.event - INFO - Update id=142600791 is handled. Duration 171 ms by bot id=7667807293
+2026-02-15 20:10:53,052 - aiogram.event - INFO - Update id=142600792 is handled. Duration 0 ms by bot id=7667807293
+2026-02-15 20:10:58,601 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:10:58,790 - __main__ - INFO - Пользователь 1428724011 не подписан на канал
+2026-02-15 20:10:58,791 - aiogram.event - INFO - Update id=142600793 is handled. Duration 188 ms by bot id=7667807293
+2026-02-15 20:11:00,448 - aiogram.event - INFO - Update id=142600794 is handled. Duration 0 ms by bot id=7667807293
+2026-02-15 20:11:06,177 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:11:06,449 - __main__ - INFO - Объявление ID_1114 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #вакансия
+2026-02-15 20:11:06,449 - aiogram.event - INFO - Update id=142600795 is handled. Duration 266 ms by bot id=7667807293
+2026-02-15 20:11:09,393 - __main__ - INFO - Получено объявление от пользователя 777000 (@None)
+2026-02-15 20:11:09,580 - __main__ - INFO - Пользователь 777000 не подписан на канал
+2026-02-15 20:11:09,580 - aiogram.event - INFO - Update id=142600796 is handled. Duration 187 ms by bot id=7667807293
+2026-02-15 20:11:25,342 - aiogram.event - INFO - Update id=142600797 is handled. Duration 0 ms by bot id=7667807293
+2026-02-15 20:11:25,398 - aiogram.event - INFO - Update id=142600798 is not handled. Duration 0 ms by bot id=7667807293
+2026-02-15 20:12:03,951 - aiogram.event - INFO - Update id=142600799 is handled. Duration 78 ms by bot id=7667807293
+2026-02-15 20:20:59,444 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:20:59,444 - __main__ - INFO - ============================================================
+2026-02-15 20:20:59,444 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:20:59,444 - __main__ - INFO - ============================================================
+2026-02-15 20:20:59,445 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:20:59,446 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:20:59,707 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:20:59,708 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:21:02,485 - __main__ - INFO - ============================================================
+2026-02-15 20:21:02,485 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:21:02,485 - __main__ - INFO - ============================================================
+2026-02-15 20:21:02,485 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:21:02,485 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:21:02,485 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:21:02,485 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:21:02,485 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:21:02,485 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:21:02,485 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:21:02,486 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:21:02,486 - __main__ - INFO - 👥 Админов панели: 0
+2026-02-15 20:21:02,486 - __main__ - INFO - ============================================================
+2026-02-15 20:21:02,488 - __main__ - INFO - 📊 Пользователей в БД: 0
+2026-02-15 20:21:02,488 - __main__ - INFO - 📊 Объявлений в БД: 0
+2026-02-15 20:21:02,488 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:21:02,736 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:21:43,279 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:21:43,280 - __main__ - INFO - ============================================================
+2026-02-15 20:21:43,280 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:21:43,280 - __main__ - INFO - ============================================================
+2026-02-15 20:21:43,281 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:21:43,281 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:21:43,545 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:21:43,546 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:21:46,137 - __main__ - INFO - ============================================================
+2026-02-15 20:21:46,137 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:21:46,137 - __main__ - INFO - ============================================================
+2026-02-15 20:21:46,137 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:21:46,137 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:21:46,137 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:21:46,137 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:21:46,137 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:21:46,138 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:21:46,138 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:21:46,138 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:21:46,138 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:21:46,138 - __main__ - INFO - ============================================================
+2026-02-15 20:21:46,139 - __main__ - INFO - 📊 Пользователей в БД: 0
+2026-02-15 20:21:46,139 - __main__ - INFO - 📊 Объявлений в БД: 0
+2026-02-15 20:21:46,139 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:21:46,373 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:21:52,095 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:21:52,536 - database - ERROR - Ошибка при работе с БД: NOT NULL constraint failed: ads.user_id
+2026-02-15 20:21:52,536 - aiogram.event - INFO - Update id=142600800 is not handled. Duration 438 ms by bot id=7667807293
+2026-02-15 20:21:52,536 - aiogram.event - ERROR - Cause exception while process update id=142600800 by bot id=7667807293
+IntegrityError: NOT NULL constraint failed: ads.user_id
+Traceback (most recent call last):
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 189, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 161, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 153, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 181, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\run.py", line 305, in handle_text_message
+    db.add_ad(
+  File "C:\Users\sabli\PycharmProjects\pythonProject5\.venv\database.py", line 272, in add_ad
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: ads.user_id
+2026-02-15 20:22:16,760 - __main__ - INFO - Пользователь 1428724011 (@sablinaekaterina) запустил бота
+2026-02-15 20:22:16,760 - aiogram.event - INFO - Update id=142600801 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:22:30,838 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:22:31,096 - __main__ - INFO - Объявление ID_1121 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #вакансия
+2026-02-15 20:22:31,097 - aiogram.event - INFO - Update id=142600802 is handled. Duration 250 ms by bot id=7667807293
+2026-02-15 20:22:33,642 - __main__ - INFO - Получено объявление от пользователя 777000 (@None)
+2026-02-15 20:22:33,824 - __main__ - INFO - Пользователь 777000 не подписан на канал
+2026-02-15 20:22:33,824 - aiogram.event - INFO - Update id=142600803 is handled. Duration 187 ms by bot id=7667807293
+2026-02-15 20:23:21,308 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:23:21,572 - __main__ - INFO - Объявление ID_1123 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #вакансия
+2026-02-15 20:23:21,572 - aiogram.event - INFO - Update id=142600804 is handled. Duration 265 ms by bot id=7667807293
+2026-02-15 20:23:43,791 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:23:44,088 - __main__ - INFO - Объявление ID_1125 от пользователя @sablinaekaterina (1428724011) успешно опубликовано с хештегом #резюме
+2026-02-15 20:23:44,088 - aiogram.event - INFO - Update id=142600805 is handled. Duration 296 ms by bot id=7667807293
+2026-02-15 20:24:12,382 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:24:12,382 - aiogram.event - INFO - Update id=142600806 is handled. Duration 93 ms by bot id=7667807293
+2026-02-15 20:24:41,486 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:24:41,486 - __main__ - INFO - ============================================================
+2026-02-15 20:24:41,486 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:24:41,486 - __main__ - INFO - ============================================================
+2026-02-15 20:24:41,487 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:24:41,487 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:24:41,748 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:24:41,749 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:24:44,386 - __main__ - INFO - ============================================================
+2026-02-15 20:24:44,386 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:24:44,386 - __main__ - INFO - ============================================================
+2026-02-15 20:24:44,386 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:24:44,386 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:24:44,386 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:24:44,386 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:24:44,386 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:24:44,386 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:24:44,386 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:24:44,386 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:24:44,387 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:24:44,387 - __main__ - INFO - ============================================================
+2026-02-15 20:24:44,388 - __main__ - INFO - 📊 Пользователей в БД: 1
+2026-02-15 20:24:44,388 - __main__ - INFO - 📊 Объявлений в БД: 3
+2026-02-15 20:24:44,388 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:24:44,621 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:24:56,609 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:24:56,609 - aiogram.event - INFO - Update id=142600807 is handled. Duration 516 ms by bot id=7667807293
+2026-02-15 20:25:01,128 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-02-15 20:25:01,128 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:25:12,887 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7667807293)
+2026-02-15 20:25:15,187 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:25:15,187 - aiogram.event - INFO - Update id=142600808 is handled. Duration 953 ms by bot id=7667807293
+2026-02-15 20:26:31,237 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:26:31,237 - __main__ - INFO - ============================================================
+2026-02-15 20:26:31,237 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:26:31,237 - __main__ - INFO - ============================================================
+2026-02-15 20:26:31,237 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:26:31,238 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:26:31,492 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:26:31,493 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:27:13,555 - __main__ - INFO - ============================================================
+2026-02-15 20:27:13,555 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:27:13,555 - __main__ - INFO - ============================================================
+2026-02-15 20:27:13,555 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:27:13,555 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:27:13,555 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:27:13,555 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:27:13,555 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:27:13,555 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:27:13,555 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:27:13,555 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:27:13,555 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:27:13,555 - __main__ - INFO - ============================================================
+2026-02-15 20:27:13,557 - __main__ - INFO - 📊 Пользователей в БД: 1
+2026-02-15 20:27:13,557 - __main__ - INFO - 📊 Объявлений в БД: 3
+2026-02-15 20:27:13,557 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:27:13,787 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:27:20,514 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:27:20,515 - aiogram.event - INFO - Update id=142600809 is handled. Duration 764 ms by bot id=7667807293
+2026-02-15 20:27:31,119 - aiogram.event - INFO - Update id=142600810 is handled. Duration 485 ms by bot id=7667807293
+2026-02-15 20:27:40,410 - __main__ - INFO - Пользователь 1428724011 запросил правила
+2026-02-15 20:27:40,410 - aiogram.event - INFO - Update id=142600811 is handled. Duration 1546 ms by bot id=7667807293
+2026-02-15 20:27:52,924 - __main__ - INFO - Получено объявление от пользователя 1428724011 (@sablinaekaterina)
+2026-02-15 20:27:53,840 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-15 20:27:53,840 - __main__ - WARNING - Объявление ID_1139 отклонено: Объявление не начинается с разрешенной фразы
+2026-02-15 20:27:53,841 - aiogram.event - INFO - Update id=142600812 is handled. Duration 921 ms by bot id=7667807293
+2026-02-15 20:28:33,699 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:28:33,699 - __main__ - INFO - ============================================================
+2026-02-15 20:28:33,700 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:28:33,700 - __main__ - INFO - ============================================================
+2026-02-15 20:28:33,700 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:28:33,700 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:28:33,958 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:28:33,959 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:28:36,713 - __main__ - INFO - ============================================================
+2026-02-15 20:28:36,713 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:28:36,713 - __main__ - INFO - ============================================================
+2026-02-15 20:28:36,713 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:28:36,713 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:28:36,713 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:28:36,713 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:28:36,713 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:28:36,713 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:28:36,713 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:28:36,713 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:28:36,713 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:28:36,714 - __main__ - INFO - ============================================================
+2026-02-15 20:28:36,715 - __main__ - INFO - 📊 Пользователей в БД: 1
+2026-02-15 20:28:36,715 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:28:36,715 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:28:37,273 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:28:42,142 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:28:42,142 - aiogram.event - INFO - Update id=142600813 is handled. Duration 906 ms by bot id=7667807293
+2026-02-15 20:29:11,959 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-02-15 20:29:11,960 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:29:23,137 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7667807293)
+2026-02-15 20:34:40,762 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-15 20:34:40,762 - aiogram.event - INFO - Update id=142600814 is handled. Duration 233 ms by bot id=7667807293
+2026-02-15 20:34:42,390 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:34:42,390 - aiogram.event - INFO - Update id=142600815 is handled. Duration 110 ms by bot id=7667807293
+2026-02-15 20:34:57,581 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:34:57,581 - __main__ - INFO - ============================================================
+2026-02-15 20:34:57,581 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:34:57,581 - __main__ - INFO - ============================================================
+2026-02-15 20:34:57,583 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:34:57,583 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:34:57,842 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:34:57,843 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:35:00,963 - __main__ - INFO - ============================================================
+2026-02-15 20:35:00,963 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:35:00,963 - __main__ - INFO - ============================================================
+2026-02-15 20:35:00,963 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:35:00,963 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:35:00,963 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:35:00,963 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:35:00,963 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:35:00,963 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:35:00,963 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:35:00,963 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:35:00,963 - __main__ - INFO - 👥 Админов панели: 0
+2026-02-15 20:35:00,963 - __main__ - INFO - ============================================================
+2026-02-15 20:35:00,965 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:35:00,965 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:35:00,965 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:35:01,210 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:35:07,070 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:35:07,070 - __main__ - INFO - ============================================================
+2026-02-15 20:35:07,070 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:35:07,070 - __main__ - INFO - ============================================================
+2026-02-15 20:35:07,071 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:35:07,071 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:35:07,324 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:35:07,325 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:35:10,398 - __main__ - INFO - ============================================================
+2026-02-15 20:35:10,399 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:35:10,399 - __main__ - INFO - ============================================================
+2026-02-15 20:35:10,399 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:35:10,399 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:35:10,399 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:35:10,399 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:35:10,399 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:35:10,399 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:35:10,399 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:35:10,399 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:35:10,399 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:35:10,399 - __main__ - INFO - ============================================================
+2026-02-15 20:35:10,401 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:35:10,401 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:35:10,401 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:35:10,585 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:35:35,400 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:35:35,401 - __main__ - INFO - ============================================================
+2026-02-15 20:35:35,401 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:35:35,401 - __main__ - INFO - ============================================================
+2026-02-15 20:35:35,401 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:35:35,401 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:35:35,665 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:35:35,666 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:35:38,957 - __main__ - INFO - ============================================================
+2026-02-15 20:35:38,957 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:35:38,957 - __main__ - INFO - ============================================================
+2026-02-15 20:35:38,957 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:35:38,957 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:35:38,957 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:35:38,957 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:35:38,957 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:35:38,957 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:35:38,957 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:35:38,957 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:35:38,957 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:35:38,958 - __main__ - INFO - ============================================================
+2026-02-15 20:35:38,959 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:35:38,959 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:35:38,959 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:35:39,149 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:36:02,668 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:36:02,668 - aiogram.event - INFO - Update id=142600816 is handled. Duration 703 ms by bot id=7667807293
+2026-02-15 20:37:03,377 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:37:03,377 - __main__ - INFO - ============================================================
+2026-02-15 20:37:03,377 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:37:03,377 - __main__ - INFO - ============================================================
+2026-02-15 20:37:03,378 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:37:03,378 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:37:03,634 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:37:03,635 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:38:28,079 - __main__ - INFO - ============================================================
+2026-02-15 20:38:28,079 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:38:28,079 - __main__ - INFO - ============================================================
+2026-02-15 20:38:28,079 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:38:28,079 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:38:28,079 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:38:28,079 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:38:28,079 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:38:28,079 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:38:28,079 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:38:28,079 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:38:28,080 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:38:28,080 - __main__ - INFO - ============================================================
+2026-02-15 20:38:28,081 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:38:28,081 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:38:28,081 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:38:28,335 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:38:29,126 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:38:29,127 - __main__ - INFO - ============================================================
+2026-02-15 20:38:29,127 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:38:29,127 - __main__ - INFO - ============================================================
+2026-02-15 20:38:29,128 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:38:29,128 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:38:29,389 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:38:29,390 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:38:41,241 - __main__ - INFO - ============================================================
+2026-02-15 20:38:41,241 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:38:41,241 - __main__ - INFO - ============================================================
+2026-02-15 20:38:41,242 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:38:41,242 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:38:41,242 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:38:41,242 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:38:41,242 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:38:41,242 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:38:41,242 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:38:41,242 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:38:41,242 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:38:41,242 - __main__ - INFO - ============================================================
+2026-02-15 20:38:41,244 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:38:41,244 - __main__ - INFO - 📊 Объявлений в БД: 4
+2026-02-15 20:38:41,244 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:38:41,426 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:38:45,207 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:38:45,207 - aiogram.event - INFO - Update id=142600817 is handled. Duration 467 ms by bot id=7667807293
+2026-02-15 20:38:53,668 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:38:53,668 - aiogram.event - INFO - Update id=142600818 is handled. Duration 94 ms by bot id=7667807293
+2026-02-15 20:38:59,725 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-15 20:38:59,725 - aiogram.event - INFO - Update id=142600819 is handled. Duration 202 ms by bot id=7667807293
+2026-02-15 20:39:04,824 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-15 20:39:05,109 - __main__ - INFO - Объявление ID_1155 от пользователя @redxcell (2066791910) успешно опубликовано с хештегом #резюме
+2026-02-15 20:39:05,109 - aiogram.event - INFO - Update id=142600820 is handled. Duration 297 ms by bot id=7667807293
+2026-02-15 20:39:15,827 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-15 20:39:15,994 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-15 20:39:15,994 - __main__ - WARNING - Объявление ID_1157 отклонено: Объявление не начинается с разрешенной фразы
+2026-02-15 20:39:15,994 - aiogram.event - INFO - Update id=142600821 is handled. Duration 157 ms by bot id=7667807293
+2026-02-15 20:39:17,793 - __main__ - INFO - Пользователь 2066791910 запросил правила
+2026-02-15 20:39:17,793 - aiogram.event - INFO - Update id=142600822 is handled. Duration 109 ms by bot id=7667807293
+2026-02-15 20:42:45,357 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:42:45,357 - __main__ - INFO - ============================================================
+2026-02-15 20:42:45,357 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:42:45,357 - __main__ - INFO - ============================================================
+2026-02-15 20:42:45,358 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:42:45,358 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:42:45,621 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:42:45,622 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:42:48,554 - __main__ - INFO - ============================================================
+2026-02-15 20:42:48,554 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:42:48,554 - __main__ - INFO - ============================================================
+2026-02-15 20:42:48,554 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:42:48,554 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:42:48,554 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:42:48,554 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:42:48,554 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:42:48,554 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:42:48,554 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:42:48,554 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:42:48,554 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:42:48,554 - __main__ - INFO - ============================================================
+2026-02-15 20:42:48,556 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:42:48,556 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-15 20:42:48,556 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:42:48,815 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:42:57,154 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-15 20:42:57,154 - aiogram.event - INFO - Update id=142600823 is handled. Duration 500 ms by bot id=7667807293
+2026-02-15 20:42:57,887 - admin_panel - INFO - Callback admin_stats от пользователя 2066791910
+2026-02-15 20:42:58,334 - aiogram.event - INFO - Update id=142600824 is handled. Duration 436 ms by bot id=7667807293
+2026-02-15 20:43:00,515 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:43:00,677 - aiogram.event - INFO - Update id=142600825 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:43:54,696 - aiogram.event - INFO - Update id=142600826 is handled. Duration 155 ms by bot id=7667807293
+2026-02-15 20:43:56,659 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:43:56,833 - aiogram.event - INFO - Update id=142600827 is handled. Duration 171 ms by bot id=7667807293
+2026-02-15 20:43:57,493 - aiogram.event - INFO - Update id=142600828 is handled. Duration 172 ms by bot id=7667807293
+2026-02-15 20:43:59,578 - aiogram.event - INFO - Update id=142600829 is handled. Duration 171 ms by bot id=7667807293
+2026-02-15 20:44:02,135 - aiogram.event - INFO - Update id=142600830 is handled. Duration 188 ms by bot id=7667807293
+2026-02-15 20:44:09,223 - aiogram.event - INFO - Update id=142600831 is handled. Duration 343 ms by bot id=7667807293
+2026-02-15 20:44:10,865 - aiogram.event - INFO - Update id=142600832 is handled. Duration 157 ms by bot id=7667807293
+2026-02-15 20:44:11,763 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:44:11,924 - aiogram.event - INFO - Update id=142600833 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:44:13,555 - aiogram.event - INFO - Update id=142600834 is handled. Duration 406 ms by bot id=7667807293
+2026-02-15 20:44:18,474 - aiogram.event - INFO - Update id=142600835 is handled. Duration 141 ms by bot id=7667807293
+2026-02-15 20:44:21,552 - aiogram.event - INFO - Update id=142600836 is handled. Duration 1812 ms by bot id=7667807293
+2026-02-15 20:44:29,192 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:44:29,339 - aiogram.event - INFO - Update id=142600837 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:44:30,362 - aiogram.event - INFO - Update id=142600838 is handled. Duration 282 ms by bot id=7667807293
+2026-02-15 20:44:32,052 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:44:32,208 - aiogram.event - INFO - Update id=142600839 is handled. Duration 155 ms by bot id=7667807293
+2026-02-15 20:44:33,891 - aiogram.event - INFO - Update id=142600840 is handled. Duration 141 ms by bot id=7667807293
+2026-02-15 20:44:34,925 - aiogram.event - INFO - Update id=142600841 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:44:38,609 - aiogram.event - INFO - Update id=142600842 is handled. Duration 141 ms by bot id=7667807293
+2026-02-15 20:44:40,718 - aiogram.event - INFO - Update id=142600843 is handled. Duration 171 ms by bot id=7667807293
+2026-02-15 20:44:41,160 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:44:41,308 - aiogram.event - INFO - Update id=142600844 is handled. Duration 156 ms by bot id=7667807293
+2026-02-15 20:44:42,368 - admin_panel - INFO - Callback admin_stats от пользователя 2066791910
+2026-02-15 20:44:42,544 - aiogram.event - INFO - Update id=142600845 is handled. Duration 172 ms by bot id=7667807293
+2026-02-15 20:44:43,337 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-15 20:44:43,481 - aiogram.event - INFO - Update id=142600846 is handled. Duration 141 ms by bot id=7667807293
+2026-02-15 20:48:45,969 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:48:45,969 - __main__ - INFO - ============================================================
+2026-02-15 20:48:45,969 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:48:45,969 - __main__ - INFO - ============================================================
+2026-02-15 20:48:45,970 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:48:45,970 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:48:46,231 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:48:46,232 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:48:50,717 - __main__ - INFO - ============================================================
+2026-02-15 20:48:50,717 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:48:50,717 - __main__ - INFO - ============================================================
+2026-02-15 20:48:50,717 - __main__ - INFO - 📢 Канал: @testredxcell
+2026-02-15 20:48:50,717 - __main__ - INFO - 🆔 ID канала: -1003696444549
+2026-02-15 20:48:50,717 - __main__ - INFO - 💬 Группа обсуждений: @chatestredxcell
+2026-02-15 20:48:50,717 - __main__ - INFO - 👤 Администратор: @redxcell
+2026-02-15 20:48:50,717 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:48:50,717 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:48:50,718 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:48:50,718 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:48:50,718 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:48:50,718 - __main__ - INFO - ============================================================
+2026-02-15 20:48:50,719 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:48:50,719 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-15 20:48:50,719 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:48:50,964 - aiogram.dispatcher - INFO - Run polling for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:49:52,588 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 20:49:52,588 - __main__ - INFO - ============================================================
+2026-02-15 20:49:52,588 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 20:49:52,589 - __main__ - INFO - ============================================================
+2026-02-15 20:49:52,589 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 20:49:52,589 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7667807293)
+2026-02-15 20:49:52,848 - aiogram.dispatcher - INFO - Polling stopped for bot @testKworkb_bot id=7667807293 - 'Test Bot'
+2026-02-15 20:49:52,849 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-15 20:49:55,495 - __main__ - INFO - ============================================================
+2026-02-15 20:49:55,495 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-15 20:49:55,495 - __main__ - INFO - ============================================================
+2026-02-15 20:49:55,495 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-15 20:49:55,495 - __main__ - INFO - 🆔 ID канала: -1001234567890
+2026-02-15 20:49:55,495 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-15 20:49:55,495 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-15 20:49:55,495 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-15 20:49:55,495 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-15 20:49:55,495 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-15 20:49:55,495 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-15 20:49:55,495 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-15 20:49:55,495 - __main__ - INFO - ============================================================
+2026-02-15 20:49:55,496 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-15 20:49:55,496 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-15 20:49:55,496 - aiogram.dispatcher - INFO - Start polling
+2026-02-15 20:49:58,843 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-15 20:50:16,880 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-15 20:50:16,881 - aiogram.event - INFO - Update id=666479586 is handled. Duration 531 ms by bot id=8259785532
+2026-02-15 20:50:25,610 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-15 20:50:25,760 - __main__ - ERROR - Ошибка проверки подписки пользователя 2066791910: Telegram server says - Bad Request: chat not found
+2026-02-15 20:50:25,956 - __main__ - INFO - Пользователь 2066791910 не подписан на канал
+2026-02-15 20:50:25,956 - aiogram.event - INFO - Update id=666479587 is handled. Duration 342 ms by bot id=8259785532
+2026-02-15 20:50:34,831 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-15 20:50:34,904 - __main__ - ERROR - Ошибка проверки подписки пользователя 2066791910: Telegram server says - Bad Request: chat not found
+2026-02-15 20:50:34,994 - __main__ - INFO - Пользователь 2066791910 не подписан на канал
+2026-02-15 20:50:34,994 - aiogram.event - INFO - Update id=666479588 is handled. Duration 172 ms by bot id=8259785532
+2026-02-15 21:35:17,213 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [WinError 1236] Подключение к сети было разорвано локальной системой
+2026-02-15 21:35:17,214 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8259785532)
+2026-02-15 21:35:28,761 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 8259785532)
+2026-02-15 22:58:25,722 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-15 22:58:25,723 - __main__ - INFO - ============================================================
+2026-02-15 22:58:25,723 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-15 22:58:25,723 - __main__ - INFO - ============================================================
+2026-02-15 22:58:25,723 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-15 22:58:25,723 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8259785532)
+2026-02-15 22:58:25,985 - aiogram.dispatcher - INFO - Polling stopped for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-15 22:58:25,986 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-16 14:32:21,429 - __main__ - INFO - ============================================================
+2026-02-16 14:32:21,429 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-16 14:32:21,429 - __main__ - INFO - ============================================================
+2026-02-16 14:32:21,430 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-16 14:32:21,430 - __main__ - INFO - 🆔 ID канала: -1001234567890
+2026-02-16 14:32:21,430 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-16 14:32:21,430 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-16 14:32:21,430 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-16 14:32:21,430 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-16 14:32:21,430 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-16 14:32:21,430 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-16 14:32:21,430 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-16 14:32:21,430 - __main__ - INFO - ============================================================
+2026-02-16 14:32:21,432 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-16 14:32:21,432 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-16 14:32:21,432 - aiogram.dispatcher - INFO - Start polling
+2026-02-16 14:32:22,003 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-16 14:32:22,059 - aiogram.event - INFO - Update id=666479589 is handled. Duration 0 ms by bot id=8259785532
+2026-02-16 14:32:37,362 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-16 14:32:37,362 - aiogram.event - INFO - Update id=666479590 is handled. Duration 1327 ms by bot id=8259785532
+2026-02-16 14:32:40,874 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-16 14:32:41,224 - __main__ - ERROR - Ошибка проверки подписки пользователя 2066791910: Telegram server says - Bad Request: chat not found
+2026-02-16 14:32:41,299 - __main__ - INFO - Пользователь 2066791910 не подписан на канал
+2026-02-16 14:32:41,299 - aiogram.event - INFO - Update id=666479591 is handled. Duration 421 ms by bot id=8259785532
+2026-02-16 14:32:47,608 - __main__ - INFO - Пользователь 2066791910 запросил правила
+2026-02-16 14:32:47,609 - aiogram.event - INFO - Update id=666479592 is handled. Duration 1530 ms by bot id=8259785532
+2026-02-17 11:22:19,367 - __main__ - INFO - ============================================================
+2026-02-17 11:22:19,367 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-17 11:22:19,367 - __main__ - INFO - ============================================================
+2026-02-17 11:22:19,367 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-17 11:22:19,367 - __main__ - INFO - 🆔 ID канала: -1001234567890
+2026-02-17 11:22:19,367 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-17 11:22:19,367 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-17 11:22:19,367 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-17 11:22:19,367 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-17 11:22:19,367 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-17 11:22:19,367 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-17 11:22:19,367 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-17 11:22:19,368 - __main__ - INFO - ============================================================
+2026-02-17 11:22:19,369 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-17 11:22:19,369 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-17 11:22:19,369 - aiogram.dispatcher - INFO - Start polling
+2026-02-17 11:22:19,611 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:22:20,063 - aiogram.event - INFO - Update id=666479593 is handled. Duration 0 ms by bot id=8259785532
+2026-02-17 11:22:34,277 - aiogram.event - INFO - Update id=666479594 is handled. Duration 641 ms by bot id=8259785532
+2026-02-17 11:22:38,907 - __main__ - INFO - Пользователь 2066791910 (@redxcell) запустил бота
+2026-02-17 11:22:38,907 - aiogram.event - INFO - Update id=666479595 is handled. Duration 1828 ms by bot id=8259785532
+2026-02-17 11:22:54,881 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-17 11:22:55,327 - __main__ - ERROR - Ошибка проверки подписки пользователя 2066791910: Telegram server says - Bad Request: chat not found
+2026-02-17 11:22:55,650 - __main__ - INFO - Пользователь 2066791910 не подписан на канал
+2026-02-17 11:22:55,651 - aiogram.event - INFO - Update id=666479596 is handled. Duration 766 ms by bot id=8259785532
+2026-02-17 11:23:44,693 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-17 11:23:44,693 - __main__ - INFO - ============================================================
+2026-02-17 11:23:44,693 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-17 11:23:44,693 - __main__ - INFO - ============================================================
+2026-02-17 11:23:44,694 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-17 11:23:44,694 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8259785532)
+2026-02-17 11:23:44,951 - aiogram.dispatcher - INFO - Polling stopped for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:23:44,952 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-17 11:23:48,057 - __main__ - INFO - ============================================================
+2026-02-17 11:23:48,057 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-17 11:23:48,057 - __main__ - INFO - ============================================================
+2026-02-17 11:23:48,057 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-17 11:23:48,057 - __main__ - INFO - 🆔 ID канала: -1003862664567
+2026-02-17 11:23:48,057 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-17 11:23:48,057 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-17 11:23:48,057 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-17 11:23:48,057 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-17 11:23:48,057 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-17 11:23:48,058 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-17 11:23:48,058 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-17 11:23:48,058 - __main__ - INFO - ============================================================
+2026-02-17 11:23:48,059 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-17 11:23:48,059 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-17 11:23:48,059 - aiogram.dispatcher - INFO - Start polling
+2026-02-17 11:23:48,341 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:23:55,372 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-17 11:23:55,372 - __main__ - INFO - ============================================================
+2026-02-17 11:23:55,372 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-17 11:23:55,372 - __main__ - INFO - ============================================================
+2026-02-17 11:23:55,372 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-17 11:23:55,373 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8259785532)
+2026-02-17 11:23:55,638 - aiogram.dispatcher - INFO - Polling stopped for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:23:55,639 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-17 11:23:59,061 - __main__ - INFO - ============================================================
+2026-02-17 11:23:59,061 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-17 11:23:59,061 - __main__ - INFO - ============================================================
+2026-02-17 11:23:59,061 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-17 11:23:59,062 - __main__ - INFO - 🆔 ID канала: -1003862664567
+2026-02-17 11:23:59,062 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-17 11:23:59,062 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-17 11:23:59,062 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-17 11:23:59,062 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-17 11:23:59,062 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-17 11:23:59,062 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-17 11:23:59,062 - __main__ - INFO - 👥 Админов панели: 1
+2026-02-17 11:23:59,062 - __main__ - INFO - ============================================================
+2026-02-17 11:23:59,063 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-17 11:23:59,063 - __main__ - INFO - 📊 Объявлений в БД: 6
+2026-02-17 11:23:59,063 - aiogram.dispatcher - INFO - Start polling
+2026-02-17 11:23:59,605 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:24:07,468 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-17 11:24:08,250 - __main__ - INFO - Объявление ID_32 от пользователя @redxcell (2066791910) успешно опубликовано с хештегом #вакансия
+2026-02-17 11:24:08,250 - aiogram.event - INFO - Update id=666479597 is handled. Duration 780 ms by bot id=8259785532
+2026-02-17 11:24:22,839 - __main__ - INFO - Пользователь 2066791910 запросил правила
+2026-02-17 11:24:22,839 - aiogram.event - INFO - Update id=666479598 is handled. Duration 1297 ms by bot id=8259785532
+2026-02-17 11:24:33,944 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-17 11:24:34,540 - __main__ - INFO - Объявление ID_36 от пользователя @redxcell (2066791910) успешно опубликовано с хештегом #резюме
+2026-02-17 11:24:34,540 - aiogram.event - INFO - Update id=666479599 is handled. Duration 592 ms by bot id=8259785532
+2026-02-17 11:24:39,522 - __main__ - INFO - Получено объявление от пользователя 2066791910 (@redxcell)
+2026-02-17 11:24:39,744 - __main__ - WARNING - SMTP не настроен, email не отправлен
+2026-02-17 11:24:39,744 - __main__ - WARNING - Объявление ID_38 отклонено: Объявление не начинается с разрешенной фразы
+2026-02-17 11:24:39,744 - aiogram.event - INFO - Update id=666479600 is handled. Duration 217 ms by bot id=8259785532
+2026-02-17 11:24:50,011 - __main__ - INFO - Пользователь 2066791910 запросил правила
+2026-02-17 11:24:50,012 - aiogram.event - INFO - Update id=666479601 is handled. Duration 921 ms by bot id=8259785532
+2026-02-17 11:24:52,943 - admin_panel - INFO - Админ 2066791910 открыл админ-панель
+2026-02-17 11:24:52,943 - aiogram.event - INFO - Update id=666479602 is handled. Duration 907 ms by bot id=8259785532
+2026-02-17 11:24:56,884 - admin_panel - INFO - Callback admin_stats от пользователя 2066791910
+2026-02-17 11:24:57,425 - aiogram.event - INFO - Update id=666479603 is handled. Duration 546 ms by bot id=8259785532
+2026-02-17 11:24:58,760 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-17 11:25:00,175 - aiogram.event - INFO - Update id=666479604 is handled. Duration 1421 ms by bot id=8259785532
+2026-02-17 11:25:03,228 - aiogram.event - INFO - Update id=666479605 is handled. Duration 1187 ms by bot id=8259785532
+2026-02-17 11:25:05,798 - admin_panel - INFO - Callback admin_menu от пользователя 2066791910
+2026-02-17 11:25:06,347 - aiogram.event - INFO - Update id=666479606 is handled. Duration 562 ms by bot id=8259785532
+2026-02-17 11:25:29,963 - __main__ - ERROR - Ошибка при отправке вопроса об отписке пользователю 6668168719: Telegram server says - Forbidden: bot can't initiate conversation with a user
+2026-02-17 11:25:29,963 - aiogram.event - INFO - Update id=666479607 is handled. Duration 234 ms by bot id=8259785532
+2026-02-17 11:27:12,315 - aiogram.dispatcher - INFO - Polling stopped
+2026-02-17 11:27:12,316 - __main__ - INFO - ============================================================
+2026-02-17 11:27:12,316 - __main__ - INFO - 🛑 Бот остановлен
+2026-02-17 11:27:12,316 - __main__ - INFO - ============================================================
+2026-02-17 11:27:12,316 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-02-17 11:27:12,316 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8259785532)
+2026-02-17 11:27:12,574 - aiogram.dispatcher - INFO - Polling stopped for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:27:12,575 - __main__ - INFO - ⌨️  Бот остановлен пользователем (Ctrl+C)
+2026-02-17 11:27:15,379 - __main__ - INFO - ============================================================
+2026-02-17 11:27:15,379 - __main__ - INFO - 🚀 Бот @DriverVakhtaBot запущен
+2026-02-17 11:27:15,379 - __main__ - INFO - ============================================================
+2026-02-17 11:27:15,379 - __main__ - INFO - 📢 Канал: @vakhtasever
+2026-02-17 11:27:15,379 - __main__ - INFO - 🆔 ID канала: -1003862664567
+2026-02-17 11:27:15,380 - __main__ - INFO - 💬 Группа обсуждений: @work_watch_russia
+2026-02-17 11:27:15,380 - __main__ - INFO - 👤 Администратор: @kadry460
+2026-02-17 11:27:15,380 - __main__ - INFO - 📧 Email администратора: admin@example.com
+2026-02-17 11:27:15,380 - __main__ - INFO - 📝 Фраз для резюме: 5
+2026-02-17 11:27:15,380 - __main__ - INFO - 📝 Фраз для вакансий: 10
+2026-02-17 11:27:15,380 - __main__ - INFO - 🚫 Запрещенных слов: 67
+2026-02-17 11:27:15,380 - __main__ - INFO - 👥 Админов панели: 2
+2026-02-17 11:27:15,380 - __main__ - INFO - ============================================================
+2026-02-17 11:27:15,381 - __main__ - INFO - 📊 Пользователей в БД: 2
+2026-02-17 11:27:15,381 - __main__ - INFO - 📊 Объявлений в БД: 9
+2026-02-17 11:27:15,381 - aiogram.dispatcher - INFO - Start polling
+2026-02-17 11:27:15,607 - aiogram.dispatcher - INFO - Run polling for bot @DriverVakhtaBot id=8259785532 - '@DriverMashinistBot'
+2026-02-17 11:42:50,219 - __main__ - ERROR - Ошибка при отправке вопроса об отписке пользователю 8222039860: Telegram server says - Forbidden: bot can't initiate conversation with a user
+2026-02-17 11:42:50,219 - aiogram.event - INFO - Update id=666479608 is handled. Duration 312 ms by bot id=8259785532
