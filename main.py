@@ -257,8 +257,6 @@ async def handle_text_message(message: Message, state: FSMContext):
         await message.answer(
             config.REJECTION_MESSAGE.format(admin_username=config.ADMIN_USERNAME)
         )
-        await send_rejection_email(user_id, username, ad_text, rejection_reason)
-        logger.warning(f"Объявление ID_{message.message_id} отклонено: {rejection_reason}")
         return
 
     # Шаг 3: Проверка начальной фразы
@@ -287,8 +285,6 @@ async def handle_text_message(message: Message, state: FSMContext):
         await message.answer(
             config.REJECTION_MESSAGE.format(admin_username=config.ADMIN_USERNAME)
         )
-        await send_rejection_email(user_id, username, ad_text, rejection_reason)
-        logger.warning(f"Объявление ID_{message.message_id} отклонено: {rejection_reason}")
         return
 
     # Шаг 4: Определение хештега и публикация
@@ -438,3 +434,4 @@ if __name__ == "__main__":
     except Exception as e:
 
         logger.error(f"❌ Критическая ошибка: {e}")
+
