@@ -15,7 +15,8 @@ from aiogram.enums import ChatMemberStatus
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
-
+import aiosmtplib
+from email.message import EmailMessage
 
 from config import config
 from database import db
@@ -41,6 +42,7 @@ router = Router()
 # ====== FSM СОСТОЯНИЯ ======
 class UserStates(StatesGroup):
     waiting_unsubscribe_reason = State()
+    waiting_phone_number = State()  # Состояние ожидания номера телефона
 
 # ====== УТИЛИТЫ ======
 
@@ -88,7 +90,60 @@ def validate_ad_start(text: str) -> Optional[str]:
     return None
 
 
+def validate_phone_number(phone: str) -> bool:
+    """
+    Проверка валидности номера телефона
+    Принимает номера в различных форматах
+    """
+    import re
+    
+    # Убираем все символы кроме цифр и +
+    clean_phone = re.sub(r'[^\d+]', '', phone)
+    
+    # Проверяем, что номер содержит от 10 до 15 цифр
+    digits_only = re.sub(r'[^\d]', '', clean_phone)
+    
+    if len(digits_only) < 10 or len(digits_only) > 15:
+        return False
+    
+    return True
 
+
+async def send_rejection_email(user_id: int, username: Optional[str], ad_text: str, reason: str):
+    """Отправка отклоненного объявления на email администратору"""
+    if not config.SMTP_USER or not config.SMTP_PASSWORD:
+        logger.warning("SMTP не настроен, email не отправлен")
+        return
+
+    try:
+        message = EmailMessage()
+        message["From"] = config.SMTP_USER
+        message["To"] = config.ADMIN_EMAIL
+        message["Subject"] = f"Отклоненное объявление от пользователя {user_id}"
+
+        body = f"""Отклоненное объявление
+
+Пользователь ID: {user_id}
+Username: @{username if username else 'не указан'}
+Время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+Причина отклонения: {reason}
+
+Текст объявления:
+{ad_text}
+"""
+        message.set_content(body)
+
+        await aiosmtplib.send(
+            message,
+            hostname=config.SMTP_HOST,
+            port=config.SMTP_PORT,
+            username=config.SMTP_USER,
+            password=config.SMTP_PASSWORD,
+            start_tls=True
+        )
+        logger.info(f"Email с отклоненным объявлением отправлен для пользователя {user_id}")
+    except Exception as e:
+        logger.error(f"Ошибка при отправке email: {e}")
 
 
 # ====== ОБРАБОТЧИКИ КОМАНД ======
@@ -206,6 +261,14 @@ async def handle_media(message: Message):
 async def handle_text_message(message: Message, state: FSMContext):
     """Главный обработчик текстовых сообщений (объявлений)"""
 
+    # Проверяем, находимся ли мы в состоянии ожидания номера телефона
+    current_state = await state.get_state()
+    
+    if current_state == UserStates.waiting_phone_number.state:
+        # Обрабатываем введенный номер телефона
+        await process_phone_number(message, state)
+        return
+
     # Игнорируем неизвестные команды
     if message.text.startswith('/'):
         if message.text not in ['/start', '/rules']:
@@ -257,6 +320,8 @@ async def handle_text_message(message: Message, state: FSMContext):
         await message.answer(
             config.REJECTION_MESSAGE.format(admin_username=config.ADMIN_USERNAME)
         )
+        await send_rejection_email(user_id, username, ad_text, rejection_reason)
+        logger.warning(f"Объявление ID_{message.message_id} отклонено: {rejection_reason}")
         return
 
     # Шаг 3: Проверка начальной фразы
@@ -285,13 +350,64 @@ async def handle_text_message(message: Message, state: FSMContext):
         await message.answer(
             config.REJECTION_MESSAGE.format(admin_username=config.ADMIN_USERNAME)
         )
+        await send_rejection_email(user_id, username, ad_text, rejection_reason)
+        logger.warning(f"Объявление ID_{message.message_id} отклонено: {rejection_reason}")
         return
 
-    # Шаг 4: Определение хештега и публикация
-    hashtag = config.RESUME_HASHTAG if ad_type == "resume" else config.VACANCY_HASHTAG
+    # Шаг 4: Сохраняем текст объявления и тип в state и запрашиваем номер телефона
+    await state.update_data(
+        ad_text=ad_text,
+        ad_type=ad_type
+    )
+    await state.set_state(UserStates.waiting_phone_number)
+    
+    await message.answer(
+        "✅ Ваше объявление прошло проверку!\n\n"
+        "📱 Пожалуйста, укажите контактный номер телефона для связи.\n\n"
+        "Формат: +7 (xxx) xxx-xx-xx или любой другой удобный формат."
+    )
+    logger.info(f"Объявление от пользователя {user_id} прошло проверку, запрошен номер телефона")
 
+
+async def process_phone_number(message: Message, state: FSMContext):
+    """Обработка введенного номера телефона и публикация объявления"""
+    
+    user_id = message.from_user.id
+    username = message.from_user.username
+    phone_number = message.text.strip()
+    
+    # Валидация номера телефона
+    if not validate_phone_number(phone_number):
+        await message.answer(
+            "❌ Некорректный формат номера телефона.\n\n"
+            "Пожалуйста, введите номер телефона в корректном формате.\n"
+            "Например: +7 (999) 123-45-67 или 89991234567"
+        )
+        logger.warning(f"Пользователь {user_id} ввел некорректный номер телефона: {phone_number}")
+        return
+    
+    # Получаем сохраненные данные
+    user_data = await state.get_data()
+    ad_text = user_data.get('ad_text')
+    ad_type = user_data.get('ad_type')
+    
+    if not ad_text or not ad_type:
+        await message.answer(
+            "❌ Произошла ошибка. Пожалуйста, отправьте объявление заново."
+        )
+        await state.clear()
+        return
+    
+    # Формируем текст для публикации
+    hashtag = config.RESUME_HASHTAG if ad_type == "resume" else config.VACANCY_HASHTAG
+    
+    # Добавляем username и номер телефона
+    username_text = f"@{username}" if username else "Пользователь без username"
+    
+    post_text = f"{ad_text}\n\n📱 Телефон: {phone_number}\n👤 Контакт: {username_text}\n\n{hashtag}"
+    
     try:
-        post_text = f"{ad_text}\n\n{hashtag}"
+        # Публикуем в канал
         sent_message = await bot.send_message(
             chat_id=config.CHANNEL_CHAT_ID,
             text=post_text
@@ -319,15 +435,19 @@ async def handle_text_message(message: Message, state: FSMContext):
             config.SUCCESS_MESSAGE.format(channel_id=config.CHANNEL_ID)
         )
         logger.info(
-            f"Объявление ID_{message.message_id} от пользователя @{username} ({user_id}) "
-            f"успешно опубликовано с хештегом {hashtag}"
+            f"Объявление от пользователя @{username} ({user_id}) "
+            f"успешно опубликовано с хештегом {hashtag} и номером телефона"
         )
+        
+        # Очищаем состояние
+        await state.clear()
 
     except Exception as e:
         logger.error(f"Ошибка при публикации объявления от пользователя {user_id}: {e}")
         await message.answer(
             config.ERROR_MESSAGE.format(admin_username=config.ADMIN_USERNAME)
         )
+        await state.clear()
 
 
 # ====== ОТСЛЕЖИВАНИЕ ОТПИСОК ======
@@ -432,6 +552,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         logger.info("⌨️  Бот остановлен пользователем (Ctrl+C)")
     except Exception as e:
-
         logger.error(f"❌ Критическая ошибка: {e}")
-
