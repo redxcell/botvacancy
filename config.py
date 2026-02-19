@@ -13,17 +13,10 @@ class Config:
     # ====== Telegram настройки ======
     BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8259785532:AAH02ys1v8mLsA8W8r9ULNUyk6WR7OakBlo")
     CHANNEL_ID: str = os.getenv("CHANNEL_ID", "@vakhtasever")
-    CHANNEL_CHAT_ID: int = int(os.getenv("CHANNEL_CHAT_ID", "-1003862664567"))
+    CHANNEL_CHAT_ID: int = int(os.getenv("CHANNEL_CHAT_ID", "-1001234567890"))
     DISCUSSION_GROUP: str = os.getenv("DISCUSSION_GROUP", "@work_watch_russia")
     ADMIN_USERNAME: str = os.getenv("ADMIN_USERNAME", "kadry460")
-
-    # ====== Email настройки ======
-    ADMIN_EMAIL: str = os.getenv("ADMIN_EMAIL", "admin@example.com")
-    SMTP_HOST: str = os.getenv("SMTP_HOST", "smtp.gmail.com")
-    SMTP_PORT: int = int(os.getenv("SMTP_PORT", "587"))
-    SMTP_USER: str = os.getenv("SMTP_USER", "")
-    SMTP_PASSWORD: str = os.getenv("SMTP_PASSWORD", "")
-
+    
     # ====== Разрешенные фразы для резюме ======
     RESUME_PHRASES: List[str] = [
         "ищу работу водителем",
@@ -32,7 +25,7 @@ class Config:
         "ищу работу автомехаником",
         "ищу работу механизатором"
     ]
-
+    
     # ====== Разрешенные фразы для вакансий ======
     VACANCY_PHRASES: List[str] = [
         "требуются водители",
@@ -46,7 +39,7 @@ class Config:
         "требуется автомеханик",
         "требуется автослесарь"
     ]
-
+    
     # ====== Запрещенные слова ======
     BANNED_WORDS: List[str] = [
         # Базовые маты
@@ -54,25 +47,25 @@ class Config:
         "пизд", "пизда", "пизде", "пизду", "пиздец", "пиздюк",
         "ебл", "ебан", "ебать", "ебал", "еба", "ёба", "ебучий", "ебанат",
         "бля", "блять", "блядь", "блядина", "блядство",
-
+        
         # Оскорбления
         "сука", "суки", "сучка", "сучара", "сукин",
         "хер", "херня", "хрен", "херово",
         "мудак", "мудила", "мудозвон", "мудень", "мудило",
         "гандон", "пидор", "пидар", "пидорас", "пидрила",
-
+        
         # Грубая лексика
         "залупа", "жопа", "жопу", "жопе", "жопный",
         "дерьмо", "говно", "гавно", "говнюк",
         "срать", "срака", "ссать", "ссышь", "срать",
-
+        
         # Дополнительные
         "долбоёб", "уёбок", "охуеть", "охуенно",
         "нахуй", "нахер", "похуй", "захуярить"
     ]
-
+    
     # ====== Текстовые сообщения бота ======
-
+    
     WELCOME_MESSAGE = """Добро пожаловать в бот для размещения объявлений в канале «Водители, Машинисты, Работа, Вахта» (t.me/vakhtasever)!
 
 Здесь вы можете бесплатно разместить:
@@ -85,59 +78,59 @@ class Config:
 
 Чат водителей и машинистов: t.me/work_watch_russia
 Админ канала: t.me/kadry460"""
-
+    
     SUCCESS_MESSAGE = "Ваше объявление размещено в канале: {channel_id}"
-
+    
     REJECTION_MESSAGE = """Ваше объявление не соответствует правилам размещения. 
 Отправьте /rules, чтобы ознакомиться с правилами, исправьте объявление и отправьте снова. 
 Если у вас возникли вопросы, напишите админу канала: t.me/{admin_username}"""
-
+    
     NO_SUBSCRIPTION_MESSAGE = """Для размещения объявлений необходимо подписаться на канал: {channel_id}. 
 После подписки отправьте ваше объявление снова."""
-
+    
     UNSUBSCRIBE_QUESTION = "Что вам не понравилось в канале {channel_id}?"
-
+    
     MEDIA_REJECTION_MESSAGE = "Объявление должно быть в текстовом формате. Отправьте текст заново."
-
+    
     EMPTY_MESSAGE_ERROR = "Сообщение не может быть пустым. Отправьте объявление заново."
-
+    
     UNKNOWN_COMMAND_MESSAGE = "Используйте /start для начала работы или /rules для просмотра правил размещения."
-
+    
     ERROR_MESSAGE = """Произошла ошибка при публикации объявления. 
 Пожалуйста, попробуйте позже или свяжитесь с администратором: t.me/{admin_username}"""
-
+    
     # ====== Настройки логирования ======
     LOG_FILE: str = "bot.log"
     LOG_LEVEL: str = "INFO"
     LOG_FORMAT: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-
+    
     # ====== Хештеги ======
     RESUME_HASHTAG: str = "#резюме"
     VACANCY_HASHTAG: str = "#вакансия"
-
+    
     @classmethod
     def validate(cls) -> bool:
         """Проверка корректности конфигурации"""
         errors = []
-
+        
         if cls.BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
             errors.append("BOT_TOKEN не установлен")
-
+        
         if cls.CHANNEL_CHAT_ID == -1001234567890:
             errors.append("CHANNEL_CHAT_ID не установлен (используется значение по умолчанию)")
-
+        
         if not cls.RESUME_PHRASES:
             errors.append("RESUME_PHRASES пуст")
-
+        
         if not cls.VACANCY_PHRASES:
             errors.append("VACANCY_PHRASES пуст")
-
+        
         if errors:
             print("⚠️  ПРЕДУПРЕЖДЕНИЯ КОНФИГУРАЦИИ:")
             for error in errors:
                 print(f"   - {error}")
             return False
-
+        
         print("✅ Конфигурация корректна")
         return True
 
