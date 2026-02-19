@@ -638,7 +638,7 @@ async def main():
         # Запуск polling
         await dp.start_polling(
             bot,
-            allowed_updates=["message", "chat_member"],
+            allowed_updates=["message", "chat_member", "callback_query"],
             drop_pending_updates=True
         )
     finally:
@@ -652,3 +652,4 @@ if __name__ == "__main__":
         logger.info("⌨️  Бот остановлен пользователем (Ctrl+C)")
     except Exception as e:
         logger.error(f"❌ Критическая ошибка: {e}")
+
