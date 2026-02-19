@@ -16,8 +16,6 @@ from aiogram.enums import ChatMemberStatus, ChatType
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
-import aiosmtplib
-from email.message import EmailMessage
 
 from config import config
 from database import db
@@ -119,41 +117,7 @@ def check_contact_info(text: str) -> bool:
     return False
 
 
-async def send_rejection_email(user_id: int, username: Optional[str], ad_text: str, reason: str):
-    """Отправка отклоненного объявления на email администратору"""
-    if not config.SMTP_USER or not config.SMTP_PASSWORD:
-        logger.warning("SMTP не настроен, email не отправлен")
-        return
 
-    try:
-        message = EmailMessage()
-        message["From"] = config.SMTP_USER
-        message["To"] = config.ADMIN_EMAIL
-        message["Subject"] = f"Отклоненное объявление от пользователя {user_id}"
-
-        body = f"""Отклоненное объявление
-
-Пользователь ID: {user_id}
-Username: @{username if username else 'не указан'}
-Время: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
-Причина отклонения: {reason}
-
-Текст объявления:
-{ad_text}
-"""
-        message.set_content(body)
-
-        await aiosmtplib.send(
-            message,
-            hostname=config.SMTP_HOST,
-            port=config.SMTP_PORT,
-            username=config.SMTP_USER,
-            password=config.SMTP_PASSWORD,
-            start_tls=True
-        )
-        logger.info(f"Email с отклоненным объявлением отправлен для пользователя {user_id}")
-    except Exception as e:
-        logger.error(f"Ошибка при отправке email: {e}")
 
 
 # ====== ОБРАБОТЧИКИ КОМАНД ======
@@ -374,9 +338,6 @@ async def handle_text_message(message: Message, state: FSMContext):
         )
 
         # Отправляем email (п.3 из документа)
-        await send_rejection_email(user_id, username, ad_text, rejection_reason)
-        logger.warning(f"Объявление ID_{ad_id} отклонено: {rejection_reason}")
-        return
 
     # ПРОВЕРКА 3: Начальная фраза (п.3 из документа)
     ad_type = validate_ad_start(ad_text)
@@ -412,9 +373,7 @@ async def handle_text_message(message: Message, state: FSMContext):
         )
 
         # Отправляем email (п.3 из документа)
-        await send_rejection_email(user_id, username, ad_text, rejection_reason)
-        logger.warning(f"Объявление ID_{ad_id} отклонено: {rejection_reason}")
-        return
+
 
     # ПРОВЕРКА 4: Наличие контактной информации (п.9 из документа)
     if not check_contact_info(ad_text):
@@ -451,9 +410,6 @@ async def handle_text_message(message: Message, state: FSMContext):
         )
 
         # Отправляем email
-        await send_rejection_email(user_id, username, ad_text, rejection_reason)
-        logger.warning(f"Объявление ID_{ad_id} отклонено: {rejection_reason}")
-        return
 
     # ВСЕ ПРОВЕРКИ ПРОЙДЕНЫ - ПУБЛИКУЕМ
 
@@ -652,4 +608,5 @@ if __name__ == "__main__":
         logger.info("⌨️  Бот остановлен пользователем (Ctrl+C)")
     except Exception as e:
         logger.error(f"❌ Критическая ошибка: {e}")
+
 
