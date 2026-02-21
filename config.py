@@ -11,7 +11,7 @@ class Config:
     """Конфигурация бота"""
 
     # ====== Telegram настройки ======
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", " 8259785532:AAGiK4DX7-ueT10J-snhiq1mE8pGcLVvssQ")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8259785532:AAGiK4DX7-ueT10J-snhiq1mE8pGcLVvssQ")
     CHANNEL_ID: str = os.getenv("CHANNEL_ID", "@vakhtasever")
     CHANNEL_CHAT_ID: int = int(os.getenv("CHANNEL_CHAT_ID", "-1003862664567"))
     DISCUSSION_GROUP: str = os.getenv("DISCUSSION_GROUP", "@work_watch_russia")
@@ -137,5 +137,6 @@ class Config:
 
 # Создаем экземпляр конфигурации
 config = Config()
+
 
 
